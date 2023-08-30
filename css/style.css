@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Roboto&display=swap");
+/*Css Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Caprasimo", cursive;
+
+}
+.contentbox {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/Background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.logo {
+  height: 70px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 6rem;
+}
+.logo img {
+  height: 35px;
+  width: 150px;
+}
+.logo button {
+  font-size: 1rem;
+  padding: 0.3rem 2rem;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.introdata {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 89vh;
+  width: 100vw;
+}
+.introhead {
+  margin-bottom: 3rem;
+  font-size: 3rem;
+}
+.intropara {
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+}
+.input {
+  display: flex;
+}
+.input input {
+  background: none;
+  border: none;
+  color: white;
+  padding: 0.4rem 2rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 1.2rem;
+}
+.btn {
+  border: none;
+  background-color: red;
+  color: white;
+  font-size: 1rem;
+  padding: 0.4rem 2rem;
+}
+.icon {
+  font-size: 1rem;
+  margin-left: 0.6rem;
+}
+/*Section Styling*/
+.section {
+  color: white;
+  border-top: 6px solid grey;
+  border-bottom: 6px solid grey;
+  background-color: black;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sectionhead {
+  font-size: 3rem;
+  line-height: 6rem;
+  text-align: center;
+}
+.sectionpara {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.sectiondata {
+  width: 46%;
+  height: 65%;
+}
+.imgbox {
+  width: 46%;
+  background-image: url("../images/img1.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  height: 65%;
+  width: 46%;
+}
+.imgbox img {
+  height: 100%;
+  width: 100%;
+}
+/*Section2*/
+.section2 {
+  display: flex;
+  color: white;
+  border-bottom: 6px solid grey;
+  background-color: black;
+  height: 65vh;
+  width: 100vw;
+  justify-content: space-around;
+}
+.imgbox2 {
+  height: 90%;
+  width: 46%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.imgbox2 img {
+  height: 75%;
+  width: 50%;
+}
+.sectiondata2 {
+  height: 90%;
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.section3 {
+  background-color: black;
+  color: white;
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  padding-left: 6rem;
+  border-bottom: 6px solid grey;
+  align-items: center;
+}
+.data {
+  height: 70%;
+  width: 100vw;
+  padding: 1rem;
+}
+.head {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+.para {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+.section4 {
+  height: 50vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0rem 12rem;
+}
+.imgbox3 {
+  height: 70%;
+  width: 46%;
+}
+.imgbox3 img {
+  text-align: right;
+  height: 93%;
+  width: 80%;
+}
+.databox {
+  height: 75%;
+  width: 50vw;
+}
+.section5 {
+  border-top: 6px solid grey;
+  border-bottom: 6px solid grey;
+  height: 170vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+.s5head {
+  margin-bottom: 0.5rem;
+  width: 100vw;
+}
+.row1 {
+  height: 6rem;
+  width: 80%;
+  background-color: rgba(75, 70, 70, 0.6);
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  cursor: pointer;
+  margin-bottom: 0.6rem;
+}
+.row1:hover {
+  background-color: rgba(75, 70, 70, 0.8);
+}
+i {
+  font-size: 3rem;
+}
+.input {
+  margin-top: 1rem;
+}
+.input .inputbox {
+  border: 2px solid grey;
+}
+.section6 {
+  height: 80vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arow1 {
+  height: 70%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0rem 5rem;
+}
+.arow1 a {
+  color: white;
+  font-size: 1.1rem;
+}
+.Questions {
+  margin-bottom: 2rem;
+}
+.arrow2 {
+  margin-top: 5.7rem;
+  height: 32%;
+  width: 30%;
+}
+.selectbox select {
+  border: none;
+  border: 1px solid grey;
+  background-color: black;
+  color: white;
+  padding: 0.3rem 1.5rem;
+  font-size: 0.9rem;
+  position: relative;
+  border-radius: 6px;
+  cursor: pointer;
+}
+select:hover {
+  border: 1px solid white;
+}
+.globe {
+  position: absolute;
+  left: 5.3rem;
+  font-size: 1rem;
+  z-index: 2;
+  margin-top: 0.4rem;
+  cursor: pointer;
+}

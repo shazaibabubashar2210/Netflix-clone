@@ -1,0 +1,978 @@
+@media only screen and (max-width:350px)
+{
+    .logo {
+        height: 70px;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0rem 1rem;
+      }
+      .logo img {
+        height: 22px;
+        width: 57px;
+      }
+      .logo button {
+        font-size: 0.7rem;
+        padding: 0.2rem 1.3rem;
+        color: white;
+        background-color: red;
+        border: none;
+        border-radius: 0.3rem;
+        cursor: pointer;
+      }
+      .introhead {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+      }
+      .introdata {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        height: 40vh;
+        width: 100vw;
+      }
+      .intropara {
+        margin-bottom: 1rem;
+        font-size: 0.6rem;
+        text-align: center;
+      }
+      .input input {
+        background: none;
+          background-color: rgba(0, 0, 0, 0);
+        border: none;
+        color: white;
+        padding: 0.4rem 0.7rem;
+        background-color: rgba(0,0,0,0.8);
+        font-size: 0.7rem;
+      }
+      .btn {
+        border: none;
+        background-color: red;
+        color: white;
+        font-size: 0.7rem;
+        padding: 0.3rem 1rem;
+      }
+      .icon {
+        font-size: 0.6rem;
+        margin-left: 0.3rem;
+      }
+      .contentbox {
+        height: 70vh;
+        width: 100vw;
+        background-image: url("../images/Background.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+      }
+      /*Section 1*/
+      .sectiondata {
+        width: 46%;
+        height: 30%;
+      }
+      .sectionhead {
+        font-size: 1rem;
+        line-height: 2rem;
+        text-align: center;
+      }
+      .sectionpara {
+        font-size: 0.4rem;
+        text-align: center;
+      }
+      .imgbox {
+        width: 46%;
+        background-image: url('../images/img1.PNG');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-size: cover;
+        height: 19%;
+        width: 46%;
+      }
+      .section {
+        color: white;
+        border-top: 6px solid grey;
+        border-bottom: 6px solid grey;
+        background-color: black;
+        height: 63vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      /*Section 2*/
+      .section2 {
+        display: flex;
+        color: white;
+        border-bottom: 6px solid grey;
+        background-color: black;
+        height: 50vh;
+        width: 100vw;
+        justify-content: space-around;
+        padding-top: 3rem;
+      }
+      .imgbox2 {
+        height: 60%;
+        width: 46%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+      .sectiondata2{
+        height: 60%;
+        width: 46%;
+      }
+      .sectionhead1 {
+        font-size: 0.6rem;
+        line-height: 1rem;
+        text-align: center;
+      }
+      .paragraph {
+        font-size: 0.4rem;
+        text-align: center;
+      }
+      /*Section 3*/
+      .section3 {
+        background-color: black;
+        color: white;
+        height: 30vh;
+        width: 100vw;
+        display: flex;
+        padding-left: 6rem;
+        border-bottom: 6px solid grey;
+        align-items: center;
+      }
+      .data {
+        height: 70%;
+        width: 70%;
+        padding: 0.3rem;
+      }
+      .head {
+        font-size: 1rem;
+        line-height: 1rem;
+        width: 1100vw;
+      }
+      .para {
+        margin-top: 1rem;
+        font-size: 0.6rem;
+        text-align: center;
+      }
+      /*Section 4*/
+      .section4 {
+        height: 50vh;
+        width: 100vw;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0rem 2rem;
+      }
+      .imgbox3 img {
+        text-align: right;
+        height: 67%;
+        width: 80%;
+      }
+      /*Section 5*/
+      .row1 {
+        height: 4rem;
+        width: 80%;
+        background-color: rgba(75, 70, 70, 0.6);
+        color: white;
+        font-size: 0.7rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+        cursor: pointer;
+        margin-bottom: 0.6rem;
+        border-radius: 0.4rem;
+      }
+      i{
+        font-size: 2rem;
+      }
+      .section5 {
+        height: 100vh;
+        width: 100vw;
+      }
+      /* footer section */
+      .section6 {
+        height: 60vh;
+        width: 100vw;
+        padding: 0rem 1rem;
+      }
+      .arow1 {
+        height: 34%;
+        width: 30%;
+        padding: 0rem 0rem;
+      }
+      .arow1 a {
+        color: white;
+        font-size: 0.5rem;
+      }
+      .Questions {
+        margin-bottom: 0rem;
+      }
+      .arrow2 {
+        margin-top: 2.2rem;
+        height: 32%;
+        width: 30%;
+      }
+      .selectbox select {
+        border: none;
+        border: 1px solid grey;
+        background-color: black;
+        color: white;
+        padding: 0.2rem 1rem;
+        font-size: 0.5rem;
+        position: relative;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+      select:hover{
+        border: 1px solid white;
+      }
+      .globe {
+        position: absolute;
+        left: 1.3rem;
+        font-size: 0.5rem;
+        margin-top: 0.5rem;
+      }
+}
+@media only screen and (min-width:351px) and (max-width:500px)
+{
+  .logo {
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem;
+  }
+  .logo img {
+    height: 22px;
+    width: 57px;
+  }
+  .logo button {
+    font-size: 0.7rem;
+    padding: 0.2rem 1.3rem;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+  }
+  .introhead {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  .introdata {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 40vh;
+    width: 100vw;
+  }
+  .intropara {
+    margin-bottom: 1rem;
+    font-size: 0.6rem;
+    text-align: center;
+  }
+  .input input {
+    background: none;
+      background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+    padding: 0.4rem 0.7rem;
+    background-color: rgba(0,0,0,0.8);
+    font-size: 0.7rem;
+  }
+  .btn {
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.3rem 1rem;
+  }
+  .icon {
+    font-size: 0.6rem;
+    margin-left: 0.3rem;
+  }
+  .contentbox {
+    height: 70vh;
+    width: 100vw;
+    background-image: url("../images/Background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  }
+  /*Section 1*/
+  .sectiondata {
+    width: 46%;
+    height: 30%;
+  }
+  .sectionhead {
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+  .sectionpara {
+    font-size: 0.4rem;
+    text-align: center;
+  }
+  .imgbox {
+    width: 46%;
+    background-image: url('../images/img1.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    height: 19%;
+    width: 46%;
+  }
+  .section {
+    color: white;
+    border-top: 6px solid grey;
+    border-bottom: 6px solid grey;
+    background-color: black;
+    height: 63vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  /*Section 2*/
+  .section2 {
+    display: flex;
+    color: white;
+    border-bottom: 6px solid grey;
+    background-color: black;
+    height: 50vh;
+    width: 100vw;
+    justify-content: space-around;
+    padding-top: 3rem;
+  }
+  .imgbox2 {
+    height: 60%;
+    width: 46%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .sectiondata2{
+    height: 60%;
+    width: 46%;
+  }
+  .sectionhead1 {
+    font-size: 0.6rem;
+    line-height: 1rem;
+    text-align: center;
+  }
+  .paragraph {
+    font-size: 0.4rem;
+    text-align: center;
+  }
+  /*Section 3*/
+  .section3 {
+    background-color: black;
+    color: white;
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    padding-left: 6rem;
+    border-bottom: 6px solid grey;
+    align-items: center;
+  }
+  .data {
+    height: 70%;
+    width: 70%;
+    padding: 0.3rem;
+  }
+  .head {
+    font-size: 1rem;
+    line-height: 1rem;
+    width: 1100vw;
+  }
+  .para {
+    margin-top: 1rem;
+    font-size: 0.6rem;
+    text-align: center;
+  }
+  /*Section 4*/
+  .section4 {
+    height: 50vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0rem 2rem;
+  }
+  .imgbox3 img {
+    text-align: right;
+    height: 67%;
+    width: 80%;
+  }
+  /*Section 5*/
+  .row1 {
+    height: 4rem;
+    width: 80%;
+    background-color: rgba(75, 70, 70, 0.6);
+    color: white;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    cursor: pointer;
+    margin-bottom: 0.6rem;
+    border-radius: 0.4rem;
+  }
+  i{
+    font-size: 2rem;
+  }
+  .section5 {
+    height: 100vh;
+    width: 100vw;
+  }
+  /* footer section */
+  .section6 {
+    height: 60vh;
+    width: 100vw;
+    padding: 0rem 1rem;
+  }
+  .arow1 {
+    height: 34%;
+    width: 30%;
+    padding: 0rem 0rem;
+  }
+  .arow1 a {
+    color: white;
+    font-size: 0.5rem;
+  }
+  .Questions {
+    margin-bottom: 0rem;
+  }
+  .arrow2 {
+    margin-top: 2.2rem;
+    height: 32%;
+    width: 30%;
+  }
+  .selectbox select {
+    border: none;
+    border: 1px solid grey;
+    background-color: black;
+    color: white;
+    padding: 0.2rem 1rem;
+    font-size: 0.5rem;
+    position: relative;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  select:hover{
+    border: 1px solid white;
+  }
+  .globe {
+    position: absolute;
+    left: 1.3rem;
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+  }
+}
+@media only screen and (min-width:501px) and (max-width:750px)
+{
+  .logo {
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem;
+  }
+  .logo img {
+    height: 22px;
+    width: 57px;
+  }
+  .logo button {
+    font-size: 0.7rem;
+    padding: 0.2rem 1.3rem;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+  }
+  .introhead {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  .introdata {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 40vh;
+    width: 100vw;
+  }
+  .intropara {
+    margin-bottom: 1rem;
+    font-size: 0.6rem;
+    text-align: center;
+  }
+  .input input {
+    background: none;
+      background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+    padding: 0.4rem 0.7rem;
+    background-color: rgba(0,0,0,0.8);
+    font-size: 0.7rem;
+  }
+  .btn {
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.3rem 1rem;
+  }
+  .icon {
+    font-size: 0.6rem;
+    margin-left: 0.3rem;
+  }
+  .contentbox {
+    height: 70vh;
+    width: 100vw;
+    background-image: url("../images/Background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  }
+  /*Section 1*/
+  .sectiondata {
+    width: 46%;
+    height: 30%;
+  }
+  .sectionhead {
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+  .sectionpara {
+    font-size: 0.4rem;
+    text-align: center;
+  }
+  .imgbox {
+    width: 46%;
+    background-image: url('../images/img1.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    height: 19%;
+    width: 46%;
+  }
+  .section {
+    color: white;
+    border-top: 6px solid grey;
+    border-bottom: 6px solid grey;
+    background-color: black;
+    height: 63vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  /*Section 2*/
+  .section2 {
+    display: flex;
+    color: white;
+    border-bottom: 6px solid grey;
+    background-color: black;
+    height: 50vh;
+    width: 100vw;
+    justify-content: space-around;
+    padding-top: 3rem;
+  }
+  .imgbox2 {
+    height: 60%;
+    width: 46%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .sectiondata2{
+    height: 60%;
+    width: 46%;
+  }
+  .sectionhead1 {
+    font-size: 0.6rem;
+    line-height: 1rem;
+    text-align: center;
+  }
+  .paragraph {
+    font-size: 0.4rem;
+    text-align: center;
+  }
+  /*Section 3*/
+  .section3 {
+    background-color: black;
+    color: white;
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    padding-left: 6rem;
+    border-bottom: 6px solid grey;
+    align-items: center;
+  }
+  .data {
+    height: 70%;
+    width: 70%;
+    padding: 0.3rem;
+  }
+  .head {
+    font-size: 1rem;
+    line-height: 1rem;
+    width: 1100vw;
+  }
+  .para {
+    margin-top: 1rem;
+    font-size: 0.6rem;
+    text-align: center;
+  }
+  /*Section 4*/
+  .section4 {
+    height: 50vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0rem 2rem;
+  }
+  .imgbox3 img {
+    text-align: right;
+    height: 67%;
+    width: 80%;
+  }
+  /*Section 5*/
+  .row1 {
+    height: 4rem;
+    width: 80%;
+    background-color: rgba(75, 70, 70, 0.6);
+    color: white;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    cursor: pointer;
+    margin-bottom: 0.6rem;
+    border-radius: 0.4rem;
+  }
+  i{
+    font-size: 2rem;
+  }
+  .section5 {
+    height: 100vh;
+    width: 100vw;
+  }
+  /* footer section */
+  .section6 {
+    height: 60vh;
+    width: 100vw;
+    padding: 0rem 1rem;
+  }
+  .arow1 {
+    height: 34%;
+    width: 30%;
+    padding: 0rem 0rem;
+  }
+  .arow1 a {
+    color: white;
+    font-size: 0.5rem;
+  }
+  .Questions {
+    margin-bottom: 0rem;
+  }
+  .arrow2 {
+    margin-top: 2.2rem;
+    height: 32%;
+    width: 30%;
+  }
+  .selectbox select {
+    border: none;
+    border: 1px solid grey;
+    background-color: black;
+    color: white;
+    padding: 0.2rem 1rem;
+    font-size: 0.5rem;
+    position: relative;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  select:hover{
+    border: 1px solid white;
+  }
+  .globe {
+    position: absolute;
+    left: 1.3rem;
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+}
+@media only screen and (min-width:751px) and (max-width:1200px) {
+    .logo {
+        height: 70px;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0rem 1rem;
+      }
+      .logo img {
+        height: 22px;
+        width: 57px;
+            cursor: pointer;
+      }
+      .introhead {
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+      }
+      .introdata {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        height: 40vh;
+        width: 100vw;
+      }
+      .intropara {
+        margin-bottom: 1rem;
+        font-size: 0.8rem;
+        text-align: center;
+      }
+      .input input {
+        background: none;
+          background-color: rgba(0, 0, 0, 0);
+        border: none;
+        color: white;
+        padding: 0.4rem 0.7rem;
+        background-color: rgba(0,0,0,0.8);
+        font-size: 0.7rem;
+      }
+      .btn {
+        border: none;
+        background-color: red;
+        color: white;
+        font-size: 0.7rem;
+        padding: 0.3rem 1rem;
+      }
+      .icon {
+        font-size: 0.6rem;
+        margin-left: 0.3rem;
+      }
+      .contentbox {
+        height: 70vh;
+        width: 100vw;
+        background-image: url("../images/Background.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+      }
+      /*Section 1*/
+      .sectiondata {
+        width: 46%;
+        height: 30%;
+      }
+      .sectionhead {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        text-align: center;
+      }
+      .sectionpara {
+        font-size: 0.5rem;
+        text-align: center;
+      }
+      .imgbox {
+        width: 46%;
+        background-image: url('../images/img1.PNG');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-size: cover;
+        height: 19%;
+        width: 46%;
+      }
+      .section {
+        color: white;
+        border-top: 6px solid grey;
+        border-bottom: 6px solid grey;
+        background-color: black;
+        height: 63vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      /*Section 2*/
+      .section2 {
+        display: flex;
+        color: white;
+        border-bottom: 6px solid grey;
+        background-color: black;
+        height: 50vh;
+        width: 100vw;
+        justify-content: space-around;
+        padding-top: 3rem;
+      }
+      .imgbox2 {
+        height: 60%;
+        width: 46%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+      .sectiondata2{
+        height: 60%;
+        width: 46%;
+      }
+      .sectionhead1 {
+        font-size: 0.7rem;
+        line-height: 1rem;
+        text-align: center;
+      }
+      .paragraph{
+        font-size: 0.5rem;
+      }
+      /*Section 3*/
+      .section3 {
+        background-color: black;
+        color: white;
+        height: 30vh;
+        width: 100vw;
+        display: flex;
+        padding-left: 6rem;
+        border-bottom: 6px solid grey;
+        align-items: center;
+      }
+      .data {
+        height: 70%;
+        width: 70%;
+        padding: 0.3rem;
+      }
+      .head {
+        font-size: 1rem;
+        line-height: 1rem;
+      }
+      .para {
+        margin-top: 1rem;
+        font-size: 0.7rem;
+        text-align: center;
+      }
+      /*Section 4*/
+      .section4 {
+        height: 50vh;
+        width: 100vw;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0rem 2rem;
+      }
+      .imgbox3 img {
+        text-align: right;
+        height: 67%;
+        width: 80%;
+      }
+      /*Section 5*/
+      .row1 {
+        height: 4rem;
+        width: 80%;
+        background-color: rgba(75, 70, 70, 0.6);
+        color: white;
+        font-size: 0.7rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+        cursor: pointer;
+        margin-bottom: 0.6rem;
+        border-radius: 0.4rem;
+      }
+      i{
+        font-size: 2rem;
+      }
+      .section5 {
+        height: 100vh;
+        width: 100vw;
+      }
+      /* footer section */
+      .section6 {
+        height: 60vh;
+        width: 100vw;
+        padding: 0rem 1rem;
+      }
+      .arow1 {
+        height: 50%;
+        width: 30%;
+        padding: 0rem 0rem;
+      }
+      .arow1 a {
+        color: white;
+        font-size: 1rem;
+      }
+      .Questions {
+        margin-bottom: 0rem;
+      }
+      .arrow2 {
+        margin-top: 2.2rem;
+        height: 32%;
+        width: 40%;
+      }
+      .selectbox select {
+        border: none;
+        border: 1px solid grey;
+        background-color: black;
+        color: white;
+        padding: 0.2rem 1rem;
+        font-size: 0.5rem;
+        position: relative;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+      select:hover{
+        border: 1px solid white;
+      }
+      .globe {
+        position: absolute;
+        left: 1.3rem;
+        font-size: 0.5rem;
+        margin-top: 0.5rem;
+      }  }
+      .logo button {
+        font-size: 0.7rem;
+        padding: 0.2rem 1.3rem;
+        color: white;
+        background-color: red;
+        border: none;
+        border-radius: 0.3rem;
+
+}
